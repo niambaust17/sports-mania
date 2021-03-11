@@ -1,0 +1,12 @@
+.card {
+  border-radius: 10px;
+  cursor: pointer;
+}
+img {
+  border-radius: 10px !important;
+}
+.card-footer {
+  border-top: 0;
+  background-color: white;
+  border-radius: 10px !important;
+}
