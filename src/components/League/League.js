@@ -12,7 +12,7 @@ const League = (props) =>
 
     return (
         <div className="col">
-            <div className="card h-100">
+            <div className="card">
                 <div className="card-body text-center">
                     <img src={strBadge} className="card-img-top" alt="..." />
                 </div>

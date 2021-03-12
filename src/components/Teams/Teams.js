@@ -17,7 +17,7 @@ const Teams = () =>
         <div className="container my-5">
             <div className="row row-cols-1 row-cols-md-4 g-4">
                 {
-                    teams.map(team => <Team key={team.idTeam} team={team}></Team>)
+                    teams?.map(team => <Team key={team.idTeam} team={team}></Team>)
                 }
             </div>
         </div>

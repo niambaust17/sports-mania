@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './Home.css';
 import Sports from '../Sports/Sports';
 
 const Home = () =>

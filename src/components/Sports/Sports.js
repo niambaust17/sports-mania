@@ -13,7 +13,7 @@ const Sports = (props) =>
         <div className="col">
             <div className="card">
                 <div className="card-body text-center">
-                    <img src={strSportThumb} className="card-img-top" alt="..." />
+                    <img src={strSportThumb} className="card-img-top" alt="" />
                 </div>
                 <div className="card-footer text-center">
                     <h5 className="card-title">{strSport}</h5>

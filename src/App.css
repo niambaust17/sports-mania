@@ -1,3 +1,22 @@
-body{
-    background-color: rgba(173, 216, 230, 0.5);
+body {
+  background-color: rgba(173, 216, 230, 0.171);
+}
+
+.container img {
+  height: 175px;
+}
+.icons {
+  font-size: 2.5rem;
+}
+.card {
+  border: 0;
+  background-color: rgba(4, 97, 12, 0.377);
+  /* border-top-left-radius: 15px;
+  border-top-right-radius: 15px; */
+  border-radius: 15px;
+}
+.card-footer {
+  border-top: 0;
+  border-bottom-left-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
 }

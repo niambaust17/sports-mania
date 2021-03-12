@@ -1,9 +1,12 @@
 import React from 'react';
+import img from '../../images/notfound.svg';
+import './NotFound.css';
 
-const NotFound = () => {
+const NotFound = () =>
+{
     return (
-        <div>
-            
+        <div className="container text-center not-found">
+            <img src={img} alt="" />
         </div>
     );
 };

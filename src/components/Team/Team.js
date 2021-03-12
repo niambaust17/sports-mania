@@ -10,7 +10,7 @@ const Team = (props) =>
     const history = useHistory();
     return (
         <div className="col">
-            <div className="card h-100">
+            <div className="card">
                 <div className="card-body text-center">
                     <img src={strTeamBadge} className="card-img-top" alt="..." />
                 </div>
